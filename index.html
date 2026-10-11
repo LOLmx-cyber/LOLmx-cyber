@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website 1000 Pixel Iklan</title>
+    <style>
+        .grid-container {
+            width: 1000px;
+            height: 1000px;
+            border: 2px solid #000;
+            position: relative;
+            background-image: linear-gradient(to right, #ccc 1px, transparent 1px), linear-gradient(to bottom, #ccc 1px, transparent 1px);
+            background-size: 10px 10px; /* Ukuran grid per 10x10 piksel */
+        }
+        .pixel-ad {
+            position: absolute;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Beli Piksel Iklan Anda Di Sini!</h1>
+    <div class="grid-container">
+        <!-- Contoh satu slot iklan ukuran 20x20 piksel di koordinat X:10, Y:10 -->
+        <a href="https://websitestartup.com" target="_blank" class="pixel-ad" style="left: 10px; top: 10px; width: 20px; height: 20px;">
+            <img src="logo-startup.png" width="20" height="20" title="Klik untuk kunjungi Startup" alt="Iklan">
+        </a>
+    </div>
+</body>
+</html>
